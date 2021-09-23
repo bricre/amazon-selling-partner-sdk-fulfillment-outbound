@@ -1,6 +1,5 @@
 {
   "name": "bricre/amazon-selling-partner-sdk-fulfillment-outbound",
-  "version": "2020.07.01",
   "description": "API client generated from OpenAPI definition from Amazon Selling Partner APIs for Fulfillment Outbound",
   "minimum-stability": "stable",
   "license": "Apache-2.0",

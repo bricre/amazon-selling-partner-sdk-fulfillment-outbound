@@ -1,0 +1,14 @@
+<?php
+
+namespace Amz\FulfillmentOutbound\Model;
+
+use OpenAPI\Runtime\AbstractModel as AbstractModel;
+
+/**
+ * A decimal number with no loss of precision. Useful when precision loss is
+ * unacceptable, as with currencies. Follows RFC7159 for number representation.
+ */
+class Decimal extends AbstractModel
+{
+    protected $isRawObject = true;
+}
